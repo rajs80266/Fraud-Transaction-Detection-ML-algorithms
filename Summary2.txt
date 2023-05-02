@@ -1,0 +1,37 @@
+Start Time = 18:01:05
+
+Reading Fraud data file
+
+Splitting data into training (30%) validating(35%) and testing(35%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 18:01:48
+Training Logistic Classifier model...
+Current Time = 18:05:40
+Predicting Logistic Classifier model on train data...
+Current Time = 18:06:19
+Analysis:
+Accuracy:0.9993603264064175
+Precision:[0.99938767 0.95984848]
+Recall:[0.9999722  0.52032854]
+
+Current Time = 18:06:22
+Training Gradient Boosting Classifier model...
+Current Time = 18:17:21
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 18:17:47
+Analysis:
+Accuracy:0.999115668283401
+Precision:[0.99952897 0.66050709]
+Recall:[0.9995856 0.6312115]
+
