@@ -1,4 +1,4 @@
-Start Time = 18:01:05
+Start Time = 18:28:50
 
 Reading Fraud data file
 
@@ -15,23 +15,298 @@ Seperating numerical and category attributes:
 
 Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
 
-Current Time = 18:01:48
+Current Time = 18:29:11
 Training Logistic Classifier model...
-Current Time = 18:05:40
+Current Time = 18:31:06
 Predicting Logistic Classifier model on train data...
-Current Time = 18:06:19
+Current Time = 18:31:21
 Analysis:
 Accuracy:0.9993603264064175
 Precision:[0.99938767 0.95984848]
 Recall:[0.9999722  0.52032854]
 
-Current Time = 18:06:22
+Current Time = 18:31:22
 Training Gradient Boosting Classifier model...
-Current Time = 18:17:21
+Current Time = 18:39:02
 Predicting Gradient Boosting Classifier model on train data...
-Current Time = 18:17:47
+Current Time = 18:39:18
 Analysis:
 Accuracy:0.999115668283401
 Precision:[0.99952897 0.66050709]
 Recall:[0.9995856 0.6312115]
 
+Current Time = 18:39:19
+Training Random Forest Classifier model...
+Current Time = 18:57:52
+Predicting Random Forest Classifier model on train data...
+Current Time = 18:59:21
+Analysis:
+Accuracy:0.9999104142633066
+Precision:[0.99991031 1.        ]
+Recall:[1.         0.92977413]
+
+
+Splitting data into training (40%) validating(30%) and testing(30%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 18:59:29
+Training Logistic Classifier model...
+Current Time = 19:01:50
+Predicting Logistic Classifier model on train data...
+Current Time = 19:02:10
+Analysis:
+Accuracy:0.9993685777242708
+Precision:[0.99939487 0.96211699]
+Recall:[0.99997325 0.52878138]
+
+Current Time = 19:02:11
+Training Gradient Boosting Classifier model...
+Current Time = 19:16:40
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 19:17:08
+Analysis:
+Accuracy:0.9991123939509196
+Precision:[0.99953303 0.65979054]
+Recall:[0.99957825 0.63655848]
+
+Current Time = 19:17:10
+Training Random Forest Classifier model...
+Current Time = 19:54:59
+Predicting Random Forest Classifier model on train data...
+Current Time = 19:57:53
+Analysis:
+Accuracy:0.9999021629454533
+Precision:[0.99990244 0.99966876]
+Recall:[0.99999961 0.92406614]
+
+
+Splitting data into training (50%) validating(25%) and testing(25%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 19:58:05
+Training Logistic Classifier model...
+Current Time = 20:01:40
+Predicting Logistic Classifier model on train data...
+Current Time = 20:02:14
+Analysis:
+Accuracy:0.9993656701170273
+Precision:[0.9993929  0.96130167]
+Recall:[0.9999723  0.53109815]
+
+Current Time = 20:02:17
+Training Gradient Boosting Classifier model...
+Current Time = 20:22:17
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 20:22:47
+Analysis:
+Accuracy:0.9990651649792067
+Precision:[0.99952254 0.64077909]
+Recall:[0.99954142 0.63143829]
+
+Current Time = 20:22:49
+Training Random Forest Classifier model...
+Current Time = 21:23:41
+Predicting Random Forest Classifier model on train data...
+Current Time = 21:28:32
+Analysis:
+Accuracy:0.9999019271935147
+Precision:[0.99990181 1.        ]
+Recall:[1.         0.92419825]
+
+
+Splitting data into training (60%) validating(20%) and testing(20%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 21:28:46
+Training Logistic Classifier model...
+Current Time = 21:33:00
+Predicting Logistic Classifier model on train data...
+Current Time = 21:33:42
+Analysis:
+Accuracy:0.9993749954159346
+Precision:[0.99940076 0.96336996]
+Recall:[0.99997377 0.53498779]
+
+Current Time = 21:33:46
+Training Gradient Boosting Classifier model...
+Current Time = 21:58:07
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 21:58:43
+Analysis:
+Accuracy:0.9988015943117772
+Precision:[0.99923281 0.54685353]
+Recall:[0.99956749 0.40480065]
+
+Current Time = 21:58:46
+Training Random Forest Classifier model...
+Current Time = 23:09:47
+Predicting Random Forest Classifier model on train data...
+Current Time = 23:14:19
+Analysis:
+Accuracy:0.999902031972154
+Precision:[0.99990192 1.        ]
+Recall:[1.         0.92392189]
+
+
+Splitting data into training (70%) validating(15%) and testing(15%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 23:14:30
+Training Logistic Classifier model...
+Current Time = 23:18:50
+Predicting Logistic Classifier model on train data...
+Current Time = 23:19:29
+Analysis:
+Accuracy:0.9993825544463489
+Precision:[0.99940749 0.96519864]
+Recall:[0.9999746  0.54306013]
+
+Current Time = 23:19:33
+Training Gradient Boosting Classifier model...
+Current Time = 23:48:23
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 23:49:02
+Analysis:
+Accuracy:0.9993293418659069
+Precision:[0.99951162 0.81550317]
+Recall:[0.999817   0.62346214]
+
+Current Time = 23:49:05
+Training Random Forest Classifier model...
+Current Time = 01:17:48
+Predicting Random Forest Classifier model on train data...
+Current Time = 01:22:58
+Analysis:
+Accuracy:0.9999090671093714
+Precision:[0.99990918 0.99981371]
+Recall:[0.99999978 0.9299948 ]
+
+
+Splitting data into training (80%) validating(10%) and testing(10%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 01:23:10
+Training Logistic Classifier model...
+Current Time = 01:28:10
+Predicting Logistic Classifier model on train data...
+Current Time = 01:28:57
+Analysis:
+Accuracy:0.9993962785770641
+Precision:[0.99941923 0.96847682]
+Recall:[0.99997659 0.55310136]
+
+Current Time = 01:29:02
+Training Gradient Boosting Classifier model...
+Current Time = 02:04:39
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 02:05:28
+Analysis:
+Accuracy:0.9992730981891108
+Precision:[0.99945981 0.80211794]
+Recall:[0.99981253 0.58441755]
+
+Current Time = 02:05:32
+Training Random Forest Classifier model...
+Current Time = 04:04:41
+Predicting Random Forest Classifier model on train data...
+Current Time = 04:12:25
+Analysis:
+Accuracy:0.9999055027645845
+Precision:[0.99990559 0.99983689]
+Recall:[0.9999998  0.92738275]
+
+
+Splitting data into training (90%) validating(5%) and testing(5%)
+
+Seperating features and target
+
+Feature Engineering:
+Adding a column with values as 'TRANSFER', 'CASH_OUT' and 'OTHER'
+Adding column with M as Merchant and C as Customer using nameDest initials
+Adding column that gives changeBalance as change in Balance using 'newbalanceOrig' and 'oldbalanceOrg'
+
+Seperating numerical and category attributes:
+
+Generating preprocessing numerical(Standard Scaling) and categorical(One hot encoding) attributes
+
+Current Time = 04:12:38
+Training Logistic Classifier model...
+Current Time = 04:18:30
+Predicting Logistic Classifier model on train data...
+Current Time = 04:19:24
+Analysis:
+Accuracy:0.9993963004059474
+Precision:[0.99942224 0.96444549]
+Recall:[0.9999736  0.55336396]
+
+Current Time = 04:19:29
+Training Gradient Boosting Classifier model...
+Current Time = 05:06:48
+Predicting Gradient Boosting Classifier model on train data...
+Current Time = 05:07:46
+Analysis:
+Accuracy:0.9990802181770683
+Precision:[0.99922447 0.78143949]
+Recall:[0.99985504 0.40043232]
+
+Current Time = 05:07:51
+Training Random Forest Classifier model...
+Current Time = 08:31:28
+Predicting Random Forest Classifier model on train data...
+Current Time = 08:57:49
+Analysis:
+Accuracy:0.9999074455351901
+Precision:[0.99990751 0.99985452]
+Recall:[0.99999983 0.92853283]
+
+End Time = 08:58:00
